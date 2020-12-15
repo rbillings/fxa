@@ -21,6 +21,8 @@ module.exports = {
         PUBSUB_EMULATOR_HOST: 'localhost:8085',
         FIRESTORE_EMULATOR_HOST: 'localhost:9090',
         PUBSUB_PROXY_PORT: '8093',
+        METRICS_HOST: 'localhost',
+        PUBSUB_AUDIENCE: 'example.com',
         PATH,
       },
       filter_env: ['npm_'],

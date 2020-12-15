@@ -16,6 +16,7 @@ module.exports = {
       max_restarts: '1',
       min_uptime: '2m',
       env: {
+        IP_ADDRESS: 'localhost',
         LOGGING_FORMAT: 'pretty',
         NODE_ENV: 'development',
         NODE_OPTIONS: '--inspect=9140',
@@ -23,6 +24,8 @@ module.exports = {
         CONFIG_FILES: '../config/secrets.json',
         PORT: '8091',
         PATH,
+        PUBLIC_URL: 'http://localhost:8091',
+        USE_TLS: false,
       },
       filter_env: ['npm_'],
       time: true,

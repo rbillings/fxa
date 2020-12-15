@@ -21,6 +21,9 @@ module.exports = {
         TS_NODE_FILES: 'true',
         PORT: '8290', // TODO: this needs to get added to src/config.ts
         CUSTOMS_SERVER_URL: 'none',
+        AUTH_SERVER_URL: 'http://localhost:9000/v1',
+        PROFILE_SERVER_URL: 'http://localhost:1111/v1',
+        ACCESS_TOKEN_REDIS_HOST: 'localhost',
       },
       filter_env: ['npm_'],
       watch: ['src'],

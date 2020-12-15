@@ -16,6 +16,10 @@ module.exports = {
       env: {
         NODE_ENV: 'dev',
         PORT: 7000,
+        PUBLIC_URL: 'http://localhost:7000',
+        IP_ADDRESS: 'localhost',
+        MEMCACHE_ADDRESS: 'localhost:11211',
+        REPUTATION_SERVICE_BASE_URL: 'http://localhost:8080/',
         PATH,
       },
       filter_env: ['npm_'],
